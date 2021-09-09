@@ -52,6 +52,11 @@ a {
   height: 3%;
 }
 
+.logo {
+    width: 17%;
+    height: 17%;
+}
+
 .social-link {
   margin-top: 0px;
   display: contents;
@@ -63,7 +68,7 @@ a {
 }
 
 .links {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -77,6 +82,12 @@ a {
         display: block;
         margin: 0%;
         font-size: 250%;
+    }
+
+    .logo {
+        padding-top: 10%;
+        width: 50%;
+        height: 50%;
     }
 
     img {
