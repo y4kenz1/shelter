@@ -29,6 +29,7 @@ img {
   margin: 1%;
   vertical-align: middle;
 }
+
 body {
   text-align: center;
 }
@@ -45,26 +46,10 @@ a {
   padding: 15px 20px;
   position: relative;
 }
-.categories:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: black;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.categories:hover:after {
-  width: 100%;
-  left: 0;
-}
 
 .social {
-  width: 2%;
-  height: 2%;
+  width: 3%;
+  height: 3%;
 }
 
 .social-link {
@@ -79,4 +64,32 @@ a {
 
 .links {
     margin-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+    .social {
+        display: inline-block;
+        width: 12%;
+        height: 12%;
+        padding-bottom: 0px;
+    }
+    .title {
+        display: block;
+        margin: 0%;
+        font-size: 250%;
+    }
+
+    img {
+        width: 90%;
+        height: 90%;
+        vertical-align: middle;
+        display: block;
+        padding-bottom: 10%;
+        margin: auto;
+    }
+
+    .links {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
 }
