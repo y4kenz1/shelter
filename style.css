@@ -1,6 +1,6 @@
 @font-face {
     font-family: Regular;
-    src: url(OpenSansCondensed-Light.ttf);
+    src: url(FontOfKindness.otf);
 }
 
 * {
@@ -68,5 +68,15 @@ a {
 }
 
 .social-link {
+  margin-top: 0px;
   display: contents;
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: 150%;
+}
+
+.links {
+    margin-bottom: 100px;
 }
