@@ -7,16 +7,15 @@
     font-family: Regular;
     font-size: 150%;
     color: black;
-    font-weight:
 }
 
 p {
     font-size: 150%;
+    margin: 0px;
 }
 
 a {
     font-size: 100%;
-    font-weight:
 }
 
 div {
@@ -39,12 +38,23 @@ body {
   height: 10%;
 }
 
-a {
+.link {
   color: black;
   text-decoration: none;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
+  margin-top: 0px;
+  display: contents;
+}
+
+.list-link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    margin-top: 0px;
 }
 
 .social {
@@ -57,11 +67,6 @@ a {
     height: 17%;
 }
 
-.social-link {
-  margin-top: 0px;
-  display: contents;
-}
-
 .title {
     margin-bottom: 0px;
     font-size: 150%;
@@ -69,6 +74,11 @@ a {
 
 .links {
     margin-bottom: 50px;
+}
+
+.lists-img {
+    width: 10%;
+    height: 10%;
 }
 
 @media (max-width: 1000px) {
@@ -102,5 +112,10 @@ a {
     .links {
         margin-bottom: 10%;
         margin-top: 10%;
+    }
+
+    .lists-img {
+        width: 50%;
+        height: 50%;
     }
 }
