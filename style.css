@@ -118,4 +118,9 @@ body {
         width: 50%;
         height: 50%;
     }
+
+    p {
+        font-size: 180%;
+        margin: 0px;
+    }
 }
