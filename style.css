@@ -54,6 +54,7 @@ body {
     padding: 15px 20px;
     position: relative;
     margin-top: 0px;
+    padding-top: 0px;
 }
 
 .social {
@@ -134,7 +135,7 @@ body {
     }
 
     .logo {
-        padding-top: 10%;
+        padding-top: 5%;
         width: 50%;
         height: 50%;
     }
@@ -144,7 +145,7 @@ body {
         height: 90%;
         vertical-align: middle;
         display: block;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
         margin: auto;
     }
 
@@ -163,7 +164,7 @@ body {
         margin: 0px;
     }
     a {
-        font-size: 180%;
+        font-size: 100%;
         margin: 0px;
     }
     .exp-img {
@@ -180,6 +181,12 @@ body {
     .exp-txt {
         font-size: 80%;
         margin-right: 0%;
+    }
+
+    .list-link {
+        padding: 15px;
+        padding-bottom: 20px;
+        padding-top: 5px;
     }
 }
 
